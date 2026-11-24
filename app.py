@@ -1,6 +1,8 @@
 from pathlib import Path
 import json
 import io
+from importlib.util import find_spec
+from threading import Lock
 import joblib
 import pandas as pd
 import streamlit as st
@@ -20,7 +22,17 @@ st.write('从文字理解态度，以真实实验检验评分。')
 enhanced_path=ROOT/'models/enhanced.joblib'
 enhanced=enhanced_path.is_file()
 model_path=enhanced_path if enhanced else ROOT/'models/baseline.joblib'
-if not model_path.exists():
+macbert_path=ROOT/'models/macbert'
+macbert_installed=all((macbert_path/name).is_file() for name in (
+    'ratings.safetensors', 'scoring.json', 'config.json', 'tokenizer.json'))
+macbert_available=macbert_installed and all(find_spec(name) is not None for name in (
+    'torch', 'transformers', 'safetensors'))
+models={}
+if macbert_available:
+    models['MacBERT']= 'macbert'
+if model_path.is_file():
+    models['TF-IDF 增强版' if enhanced else 'TF-IDF 基础版']='tfidf'
+if not models:
     st.info('尚未训练模型。请先运行“一键准备实验.cmd”，完成数据下载和训练后刷新。')
     st.stop()
 
@@ -28,8 +40,36 @@ if not model_path.exists():
 def load_bundle(path, stamp):
     return joblib.load(path)
 
-bundle=load_bundle(model_path, model_path.stat().st_mtime)
-st.caption('当前模型 · 增强版' if enhanced else '当前模型 · 基础版')
+@st.cache_resource(show_spinner='正在加载本地 MacBERT 模型…')
+def load_macbert(path, stamps):
+    import torch
+    from score_macbert import load_model
+
+    torch.set_num_threads(2)
+    device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    return load_model(path, device), Lock()
+
+
+def run_scoring(frame):
+    if selected == 'macbert':
+        from score_macbert import predict_loaded
+
+        stamps=tuple((macbert_path/name).stat().st_mtime_ns for name in (
+            'ratings.safetensors', 'scoring.json', 'config.json', 'tokenizer.json'))
+        runtime, lock=load_macbert(macbert_path, stamps)
+        with lock:
+            predictions, overview, stats=predict_loaded(frame, runtime)
+        return predictions, overview, stats
+    bundle=load_bundle(model_path, model_path.stat().st_mtime_ns)
+    predictions, stats=predict_frame(bundle, frame)
+    overview=aggregate(predictions, bundle['prior_mean'], bundle['prior_strength'])
+    return predictions, overview, stats
+
+
+model_name=st.selectbox('评分模型', list(models))
+selected=models[model_name]
+if macbert_installed and not macbert_available:
+    st.caption('当前 Python 环境缺少 MacBERT 依赖。使用“启动系统.cmd”可加载 MacBERT。')
 st.caption('三类情感标签由星级推导。评分反映样本口碑估计；十分值为预测星级乘以二，范围 2 至 10。')
 single,batch,experiment=st.tabs(['01 单条影评','02 作品看板','03 实验结果'])
 
@@ -37,7 +77,7 @@ with single:
     text=st.text_area('输入中文影评',value='演员表演自然，故事很感人，值得一看。',height=150,max_chars=5000)
     if st.button('分析评论',type='primary'):
         try:
-            pred,_=predict_frame(bundle,pd.DataFrame({'text':[text]}))
+            pred,_,_=run_scoring(pd.DataFrame({'text':[text]}))
             row=pred.iloc[0]
             a,b,c=st.columns(3)
             a.metric('情感倾向',row.sentiment_label)
@@ -46,6 +86,8 @@ with single:
             st.bar_chart(pd.DataFrame({'概率':[row.p_0,row.p_1,row.p_2]},index=['负向','中性','正向']))
             if row.needs_review: st.info('类别概率接近，建议人工复核。模型概率尚未进行独立校准。')
         except ValueError as exc: st.warning(str(exc))
+        except (ImportError, OSError, RuntimeError) as exc:
+            st.error(f'{model_name} 评分失败：{exc}')
 
 with batch:
     st.write('上传含 text 列的 UTF-8 CSV，可附 movie_id 和 movie_name。未提供作品编号时按同一部作品汇总。')
@@ -62,13 +104,15 @@ with batch:
             else:
                 raise ValueError('请上传 CSV，或选择使用随附测试集。')
             if len(frame)>50000: raise ValueError('单次最多分析 50000 条评论。')
-            pred,stats=predict_frame(bundle,frame)
-            overview=aggregate(pred,bundle['prior_mean'],bundle['prior_strength'])
-            st.session_state['batch_result']=(pred,overview,stats)
+            with st.spinner(f'正在使用 {model_name} 分析评论…'):
+                pred,overview,stats=run_scoring(frame)
+            st.session_state[f'batch_result_{selected}']=(pred,overview,stats)
         except (ValueError,UnicodeError,pd.errors.ParserError,pd.errors.EmptyDataError) as exc:
             st.warning(f'文件处理失败：{exc}')
-    if 'batch_result' in st.session_state:
-        pred,overview,stats=st.session_state['batch_result']
+        except (ImportError, OSError, RuntimeError) as exc:
+            st.error(f'{model_name} 评分失败：{exc}')
+    if f'batch_result_{selected}' in st.session_state:
+        pred,overview,stats=st.session_state[f'batch_result_{selected}']
         a,b,c=st.columns(3)
         a.metric('有效评论',len(pred)); b.metric('作品数',len(overview)); c.metric('过滤重复',stats['duplicate_rows'])
         st.subheader('作品口碑')
@@ -84,7 +128,35 @@ with batch:
 with experiment:
     path=ROOT/'reports/metrics.json'
     enhanced_report=ROOT/'reports/enhanced/metrics.json'
-    if enhanced and enhanced_report.is_file():
+    macbert_report=ROOT/'reports/macbert/metrics.json'
+    if macbert_report.is_file() and (selected == 'macbert' or enhanced):
+        result=json.loads(macbert_report.read_text(encoding='utf-8'))
+        fresh=result['evaluation']['test'][selected]
+        score=fresh['sentiment']
+        st.caption(f'当前模型 · {model_name}')
+        a,b,c=st.columns(3)
+        a.metric('新作品测试 Macro-F1',f"{score['macro_f1']:.3f}")
+        b.metric('单条五星预测 MAE',f"{fresh['star_mae']:.3f}")
+        c.metric('作品均分 MAE',f"{fresh['movie_mae']:.3f}")
+        test=result['partitions']['test']
+        st.write(f"新增测试集包含 {test['movies']} 部作品、{test['rows']:,} 条评论。两种模型使用相同的测试样本。")
+        rows=[]
+        for group, title in [('test', '新增作品'), ('legacy', '原测试集')]:
+            for version, label in [('tfidf', 'TF-IDF 增强版'), ('macbert', 'MacBERT')]:
+                item=result['evaluation'][group][version]
+                sentiment=item['sentiment']
+                rows.append({'测试集':title, '模型':label,
+                             '情感 Macro-F1':round(sentiment['macro_f1'], 3),
+                             '负向召回率':f"{sentiment['per_class']['0']['recall']:.1%}",
+                             '中性召回率':f"{sentiment['per_class']['1']['recall']:.1%}",
+                             '单条 MAE（星）':round(item['star_mae'], 3),
+                             '作品均分 MAE（星）':round(item['movie_mae'], 3)})
+        st.dataframe(pd.DataFrame(rows),hide_index=True)
+        st.write('当前模型在新增作品上的混淆矩阵，行是真实类别，列是预测类别。')
+        labels=['负向','中性','正向']
+        st.dataframe(pd.DataFrame(score['confusion_matrix'],index=labels,columns=labels))
+        st.caption('情感真值由原星级推导，人工盲标复核尚待完成。')
+    elif enhanced and enhanced_report.is_file():
         result=json.loads(enhanced_report.read_text(encoding='utf-8'))
         fresh=result['evaluation']['test']['enhanced']
         score=fresh['sentiment']
