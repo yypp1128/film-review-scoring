@@ -1,0 +1,221 @@
+{
+  "repository": "https://github.com/bbublm/Douban-Movie-Review-Dataset",
+  "commit": "83ce1656fc1ad7e61479d40178f7cd05f06a884b",
+  "selection_seed": 42,
+  "requested_movies": 40,
+  "usage": "发布者说明仅供学术研究和个人学习，禁止商业使用；不代表平台额外授权。",
+  "sources": [
+    {
+      "path": "data_all/X圣治.csv",
+      "sha": "f74831aa4d08304374e0dbe3d31ae6a39a521812",
+      "rows": 57
+    },
+    {
+      "path": "data_all/YES一族.csv",
+      "sha": "bdc717399f308c277c9ba03171c808fd311459fb",
+      "rows": 207
+    },
+    {
+      "path": "data_all/东京物语.csv",
+      "sha": "5635615838ce01b272377e30dd0ae433f7364695",
+      "rows": 216
+    },
+    {
+      "path": "data_all/今生今世.csv",
+      "sha": "0c926ff8603dc4c1ab3492dced597617298f867f",
+      "rows": 166
+    },
+    {
+      "path": "data_all/低俗小说.csv",
+      "sha": "78cf2578cea3b12bf60c67be5bacab5cda688a3d",
+      "rows": 137
+    },
+    {
+      "path": "data_all/佛莱迪大战杰森.csv",
+      "sha": "5437c588e856d7e5de7b15f58c63066039ae749e",
+      "rows": 154
+    },
+    {
+      "path": "data_all/僵尸.csv",
+      "sha": "1865e3a31e7fa532bf8f89c624a81907014d42ae",
+      "rows": 212
+    },
+    {
+      "path": "data_all/卡萨布兰卡.csv",
+      "sha": "6ea0a29fb34d16cdee9afc9d86fa521785ee58b1",
+      "rows": 98
+    },
+    {
+      "path": "data_all/卡门.csv",
+      "sha": "ed4a066d95b9ee2a11b7d0660ec635caca92488b",
+      "rows": 158
+    },
+    {
+      "path": "data_all/哆啦A梦.csv",
+      "sha": "6bc5ab0d259ff56184c943323a39f8a1fdc5404d",
+      "rows": 214
+    },
+    {
+      "path": "data_all/哈利·波特与密室.csv",
+      "sha": "d6941f1ff6d00e69e21a51766a3c198a62b6ffc1",
+      "rows": 80
+    },
+    {
+      "path": "data_all/回到未来.csv",
+      "sha": "a4fcb4f5aa118198c13b20f73ca8af35e833ba15",
+      "rows": 217
+    },
+    {
+      "path": "data_all/回转寿尸.csv",
+      "sha": "bb514c252086e96cadb73e0b3032697b3b94b1aa",
+      "rows": 136
+    },
+    {
+      "path": "data_all/回魂夜.csv",
+      "sha": "39750ee41cd7385c2be6c74adfb101251ba9f067",
+      "rows": 134
+    },
+    {
+      "path": "data_all/大独裁者.csv",
+      "sha": "95296533c76b2e6d3cc84035fe4589ed1eb6b819",
+      "rows": 215
+    },
+    {
+      "path": "data_all/大街上的商店.csv",
+      "sha": "ad6170cce6d3bec82ddfe125b419c2cdb8fdeb43",
+      "rows": 132
+    },
+    {
+      "path": "data_all/巴贝特之宴.csv",
+      "sha": "3c6a2c4bc5b87e0491e63663cd1faa427870387f",
+      "rows": 59
+    },
+    {
+      "path": "data_all/归心似箭.csv",
+      "sha": "103286f962a63332b61df9dd0a76e62e32202f88",
+      "rows": 207
+    },
+    {
+      "path": "data_all/当幸福来敲门.csv",
+      "sha": "868844183cd1a85f2d54114e7ff9d0c5c34abb33",
+      "rows": 196
+    },
+    {
+      "path": "data_all/怪物史瑞克2.csv",
+      "sha": "66eb712e1e224c64bda61a73aeddd70dbeb34814",
+      "rows": 177
+    },
+    {
+      "path": "data_all/恐怖鸡.csv",
+      "sha": "d9eaa06091f198769223c016c9025b70b542d2d6",
+      "rows": 78
+    },
+    {
+      "path": "data_all/控方证人.csv",
+      "sha": "eea3e296b9c4b2d94332eb25150c196d6a775b2e",
+      "rows": 198
+    },
+    {
+      "path": "data_all/搏击俱乐部.csv",
+      "sha": "2ff756758404de3e3b844f1a84974c7173a1605d",
+      "rows": 78
+    },
+    {
+      "path": "data_all/攻壳机动队.csv",
+      "sha": "4a1ec45bc1cf9d437586559ba0f2b114af51fad4",
+      "rows": 216
+    },
+    {
+      "path": "data_all/春光乍泄.csv",
+      "sha": "b00e4d7fb342adbd42e6d9c25fe1638628c4451f",
+      "rows": 196
+    },
+    {
+      "path": "data_all/爱在日落黄昏时.csv",
+      "sha": "7eed5e562a762f8e7660e60cdfb505c1fb8bc9cf",
+      "rows": 216
+    },
+    {
+      "path": "data_all/电锯惊魂3.csv",
+      "sha": "ce57ebae07e9e2f66485c04c7a26c246aa170729",
+      "rows": 214
+    },
+    {
+      "path": "data_all/疯狂的麦克斯4：狂暴之路.csv",
+      "sha": "5ca6c5d3067e57c2ab4e051e25646b407fcc41c9",
+      "rows": 78
+    },
+    {
+      "path": "data_all/疯狂约会美丽都.csv",
+      "sha": "c1e6334e50adb737d902eee05e167354ed5e45c4",
+      "rows": 215
+    },
+    {
+      "path": "data_all/白头神探.csv",
+      "sha": "02f8880274f6b537f71d0510e67f3c9f1bf4000e",
+      "rows": 135
+    },
+    {
+      "path": "data_all/碟中谍.csv",
+      "sha": "5c07f7a022ceaecfe180853c808514038d0753bb",
+      "rows": 59
+    },
+    {
+      "path": "data_all/虎口脱险.csv",
+      "sha": "df68a888ba4502fa17f4a56de3362ea47d6826ff",
+      "rows": 214
+    },
+    {
+      "path": "data_all/解构生活.csv",
+      "sha": "8325ec336bd9c1712dc70afa16147adf6a227789",
+      "rows": 137
+    },
+    {
+      "path": "data_all/解除好友2：暗网.csv",
+      "sha": "8adcd8268747dca186f163b4b490466b775c91f3",
+      "rows": 210
+    },
+    {
+      "path": "data_all/超能陆战队.csv",
+      "sha": "c8ae1af3673861c4efea5f0fa4f97d436fdad814",
+      "rows": 133
+    },
+    {
+      "path": "data_all/阿丽塔：战斗天使.csv",
+      "sha": "ca52444d011e4887a83d370dd219b3727c08e5ef",
+      "rows": 225
+    },
+    {
+      "path": "data_all/阿飞正传.csv",
+      "sha": "7caedf51609a36570a2db15ee98768ce53d3ba9a",
+      "rows": 100
+    },
+    {
+      "path": "data_all/飞鹰艾迪.csv",
+      "sha": "3c059e72d95e30d572e18052903cc21a6eaae352",
+      "rows": 78
+    },
+    {
+      "path": "data_all/鬼入侵.csv",
+      "sha": "5543c338acabc20f881b343dd27c6b49fcfd6a2b",
+      "rows": 185
+    },
+    {
+      "path": "data_all/黄金岛历险记.csv",
+      "sha": "9132ebf0a607f1982c1292872cdc29f6afd09291",
+      "rows": 220
+    }
+  ],
+  "failures": [],
+  "original_columns_used": [
+    "text",
+    "star",
+    "date"
+  ],
+  "excluded_columns": [
+    "username",
+    "precomputed_sentiment",
+    "votes",
+    "star_description"
+  ]
+}

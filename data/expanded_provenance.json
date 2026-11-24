@@ -1,0 +1,1516 @@
+{
+  "repository": "https://github.com/bbublm/Douban-Movie-Review-Dataset",
+  "commit": "83ce1656fc1ad7e61479d40178f7cd05f06a884b",
+  "selection_seed": 42,
+  "requested_movies": 299,
+  "usage": "发布者说明仅供学术研究和个人学习，禁止商业使用；不代表平台额外授权。",
+  "sources": [
+    {
+      "path": "data_all/007之杀人执照.csv",
+      "sha": "2c91704daf895f9b0353e7d47443e6085e8c3f89",
+      "rows": 212
+    },
+    {
+      "path": "data_all/2001太空漫游.csv",
+      "sha": "99ec8488e89c47e641aba9120894cf0f58cdd9cd",
+      "rows": 39
+    },
+    {
+      "path": "data_all/7号房的礼物.csv",
+      "sha": "1ccfadc1941e46e4005f6105c0d0e1e92883ef2b",
+      "rows": 216
+    },
+    {
+      "path": "data_all/X圣治.csv",
+      "sha": "f74831aa4d08304374e0dbe3d31ae6a39a521812",
+      "rows": 57
+    },
+    {
+      "path": "data_all/YES一族.csv",
+      "sha": "bdc717399f308c277c9ba03171c808fd311459fb",
+      "rows": 207
+    },
+    {
+      "path": "data_all/不良教育.csv",
+      "sha": "bed85e0e8a1bce3dd44eb0c70330a0bee88704ee",
+      "rows": 215
+    },
+    {
+      "path": "data_all/东京教父.csv",
+      "sha": "d2b9a2b766fe5a2c42267d8c764933abd53efe81",
+      "rows": 60
+    },
+    {
+      "path": "data_all/东京物语.csv",
+      "sha": "5635615838ce01b272377e30dd0ae433f7364695",
+      "rows": 216
+    },
+    {
+      "path": "data_all/东瀛游侠.csv",
+      "sha": "3135dfa4766e3b86247c8fbf3ef52d01048d17f6",
+      "rows": 184
+    },
+    {
+      "path": "data_all/东邪西毒.csv",
+      "sha": "88e1426146bac71b224e476e9126d283815b7717",
+      "rows": 59
+    },
+    {
+      "path": "data_all/两个英国女孩与欧陆.csv",
+      "sha": "dbbd944b613a8d5d4b883a7f09048c2a1abe99a0",
+      "rows": 134
+    },
+    {
+      "path": "data_all/两杆大烟枪.csv",
+      "sha": "e13ef305ab66e8969d79d2be09c95be5fdb115de",
+      "rows": 213
+    },
+    {
+      "path": "data_all/丰胸秘CUP.csv",
+      "sha": "34dcaee3e4d5e27f88403441704b6c04ad432a51",
+      "rows": 117
+    },
+    {
+      "path": "data_all/九品芝麻官.csv",
+      "sha": "d10a43f848b8b20f827c45ad66e10ce6f6f3d5f5",
+      "rows": 79
+    },
+    {
+      "path": "data_all/二月三十.csv",
+      "sha": "08f1784d9fa70b3729aa091ce979bee87e131c34",
+      "rows": 164
+    },
+    {
+      "path": "data_all/今生今世.csv",
+      "sha": "0c926ff8603dc4c1ab3492dced597617298f867f",
+      "rows": 166
+    },
+    {
+      "path": "data_all/伴我纵横.csv",
+      "sha": "ac7b50c192451d24a4545beeff6846f63c6e010f",
+      "rows": 153
+    },
+    {
+      "path": "data_all/低俗小说.csv",
+      "sha": "78cf2578cea3b12bf60c67be5bacab5cda688a3d",
+      "rows": 137
+    },
+    {
+      "path": "data_all/佛莱迪大战杰森.csv",
+      "sha": "5437c588e856d7e5de7b15f58c63066039ae749e",
+      "rows": 154
+    },
+    {
+      "path": "data_all/侧耳倾听.csv",
+      "sha": "71cc9b53bc802d8f31dcade2b69817d389b610e2",
+      "rows": 57
+    },
+    {
+      "path": "data_all/借东西的小人阿莉埃蒂.csv",
+      "sha": "009475c0aac7297cfdfc7d89e46bb5e6c46f80be",
+      "rows": 79
+    },
+    {
+      "path": "data_all/傲慢与偏见.csv",
+      "sha": "5d583ffbda0fc58a9961d2126ff7979fd8ab93ce",
+      "rows": 93
+    },
+    {
+      "path": "data_all/僵尸.csv",
+      "sha": "1865e3a31e7fa532bf8f89c624a81907014d42ae",
+      "rows": 212
+    },
+    {
+      "path": "data_all/僵尸叔叔.csv",
+      "sha": "ecd2e3f0d156ca7954594740d5dd86657c51b9b6",
+      "rows": 204
+    },
+    {
+      "path": "data_all/僵尸新娘.csv",
+      "sha": "0b1f5c6adb04d5cfdc7a610a9c55944e87e2d2ed",
+      "rows": 19
+    },
+    {
+      "path": "data_all/僵尸至尊.csv",
+      "sha": "aed67fae77664d7032bad82fb11a8c59f7c8f029",
+      "rows": 40
+    },
+    {
+      "path": "data_all/僵尸行动.csv",
+      "sha": "f6c95371a8fd48bd52e6632b62a3852b41b305e6",
+      "rows": 131
+    },
+    {
+      "path": "data_all/光荣之路.csv",
+      "sha": "b7dd52716a51ddef67412dfad4f5483f400b9c8b",
+      "rows": 20
+    },
+    {
+      "path": "data_all/光辉岁月.csv",
+      "sha": "98055a9320ed45d6a7d74e6857f7d3711cfa0ecf",
+      "rows": 138
+    },
+    {
+      "path": "data_all/关于我和鬼变成家人的那件事.csv",
+      "sha": "1f88cadf81db9a6ed95885cad0d11fc156e64b4c",
+      "rows": 19
+    },
+    {
+      "path": "data_all/关于我母亲的一切.csv",
+      "sha": "fae7b98ee5e0d787aa7dfb917db8f714d1000471",
+      "rows": 217
+    },
+    {
+      "path": "data_all/冬日之光.csv",
+      "sha": "6b6c9cbf7e2a6e0403f1142f3f679b06e8af4dd5",
+      "rows": 210
+    },
+    {
+      "path": "data_all/冰之世界.csv",
+      "sha": "190e874ac5b52fa5a6048250de33822d4cbc3835",
+      "rows": 206
+    },
+    {
+      "path": "data_all/冰川时代.csv",
+      "sha": "5cfdf6aae8685c14e5dffd1ce1a02e162de15bd0",
+      "rows": 38
+    },
+    {
+      "path": "data_all/冰川时代2.csv",
+      "sha": "1b6594a83fe95c8b0e8ac33cf79e35012bfd9f22",
+      "rows": 20
+    },
+    {
+      "path": "data_all/冰血暴.csv",
+      "sha": "4cb7d0e768406e4869f63a6385c1d370c0ea9e61",
+      "rows": 195
+    },
+    {
+      "path": "data_all/冰雪奇缘.csv",
+      "sha": "4ee031378a713c3d5cd2236156ebec079e5b5b5d",
+      "rows": 59
+    },
+    {
+      "path": "data_all/冲锋陷阵.csv",
+      "sha": "751fba5f663ade35ceb25ea2897b4f38ab44bdd7",
+      "rows": 137
+    },
+    {
+      "path": "data_all/决战冰河.csv",
+      "sha": "6d0c7cccbf92fc8ae5b8fbbb710916326e1e6682",
+      "rows": 209
+    },
+    {
+      "path": "data_all/冷血奇兵.csv",
+      "sha": "73fae592844c64c905a976284acbea12f9975ff6",
+      "rows": 132
+    },
+    {
+      "path": "data_all/凯尔经的秘密.csv",
+      "sha": "6e81579d5d4a0b0f76b384f939ba8e050446d35c",
+      "rows": 40
+    },
+    {
+      "path": "data_all/初恋的回忆.csv",
+      "sha": "3367a8d4932b763113655fb61611d60fd32f0bf4",
+      "rows": 133
+    },
+    {
+      "path": "data_all/初恋这件小事.csv",
+      "sha": "074af940c35081ea2d17252379e52ce4ab868982",
+      "rows": 19
+    },
+    {
+      "path": "data_all/刺杀肯尼迪.csv",
+      "sha": "7308bd1fd88d30231482155ea127bab7ee1f20f2",
+      "rows": 19
+    },
+    {
+      "path": "data_all/办公室的故事.csv",
+      "sha": "e7e8f2d5ee34e404cada7cb323733945ac9b6e94",
+      "rows": 155
+    },
+    {
+      "path": "data_all/功夫.csv",
+      "sha": "5ab9437842f8df1f94b2d3806dc3254df5e6a2af",
+      "rows": 59
+    },
+    {
+      "path": "data_all/加勒比海盗.csv",
+      "sha": "ab4d58104a26bea0869c8e41f8451ccb84bb9058",
+      "rows": 20
+    },
+    {
+      "path": "data_all/加里波利.csv",
+      "sha": "f38261bbffdef26c45610f344cec88d1063e5fed",
+      "rows": 132
+    },
+    {
+      "path": "data_all/勃朗特姐妹.csv",
+      "sha": "4b3c755ff0537ab630e958c4c65e65b2608bced2",
+      "rows": 194
+    },
+    {
+      "path": "data_all/北壁.csv",
+      "sha": "fca28599bd8546e1ff573327dcb0886ced61a778",
+      "rows": 57
+    },
+    {
+      "path": "data_all/卡特教练.csv",
+      "sha": "42eabab2cab8178e22f49f5b6104425f259491f1",
+      "rows": 195
+    },
+    {
+      "path": "data_all/卡萨布兰卡.csv",
+      "sha": "6ea0a29fb34d16cdee9afc9d86fa521785ee58b1",
+      "rows": 98
+    },
+    {
+      "path": "data_all/卡里加里博士的小屋.csv",
+      "sha": "402b24f0f12ccc5bc1fa11a61dd64bf56f06fede",
+      "rows": 211
+    },
+    {
+      "path": "data_all/卡门.csv",
+      "sha": "ed4a066d95b9ee2a11b7d0660ec635caca92488b",
+      "rows": 158
+    },
+    {
+      "path": "data_all/参孙和达莉拉.csv",
+      "sha": "a5aaa2dbc7c325a413592b7ff32846c4143cde3c",
+      "rows": 134
+    },
+    {
+      "path": "data_all/变蝇人.csv",
+      "sha": "83c04d940eecccfd166589ca8cacc180dfdd4199",
+      "rows": 39
+    },
+    {
+      "path": "data_all/可可西里.csv",
+      "sha": "ba71a6eb2db66697c07758f025c8476dc28752b3",
+      "rows": 39
+    },
+    {
+      "path": "data_all/君子协定.csv",
+      "sha": "fdcef62ed93497a570a637e619357b9fa0b1dd3e",
+      "rows": 136
+    },
+    {
+      "path": "data_all/告白.csv",
+      "sha": "5df302165f996cd047a729d707fea785b5a2885e",
+      "rows": 20
+    },
+    {
+      "path": "data_all/和平公主减肥记.csv",
+      "sha": "5c1d99a6a0527c4b1a5c3b0eaf8558997992919d",
+      "rows": 174
+    },
+    {
+      "path": "data_all/哆啦A梦.csv",
+      "sha": "6bc5ab0d259ff56184c943323a39f8a1fdc5404d",
+      "rows": 214
+    },
+    {
+      "path": "data_all/哈利·波特与密室.csv",
+      "sha": "d6941f1ff6d00e69e21a51766a3c198a62b6ffc1",
+      "rows": 80
+    },
+    {
+      "path": "data_all/哈利·波特与死亡圣器(上).csv",
+      "sha": "31179b4258935192467ed5f1d87b7af90a42f27b",
+      "rows": 19
+    },
+    {
+      "path": "data_all/哈利·波特与死亡圣器(下).csv",
+      "sha": "3a55ffb94f36756ac7b4553eaca961a7ad201bc1",
+      "rows": 19
+    },
+    {
+      "path": "data_all/哈利·波特与混血王子.csv",
+      "sha": "caeb227304854eb3b0cf4d10bca9334981e20c36",
+      "rows": 20
+    },
+    {
+      "path": "data_all/哈利·波特与火焰杯.csv",
+      "sha": "96b76fd36c8b79db5012c09a63630bd1f91b416a",
+      "rows": 40
+    },
+    {
+      "path": "data_all/哈利·波特与阿兹卡班的囚徒.csv",
+      "sha": "9aa46d7e5a5a3f1b0256ba1d3f933a481148eedd",
+      "rows": 59
+    },
+    {
+      "path": "data_all/哈利·波特与魔法石.csv",
+      "sha": "c780796bf2447fdcea3203da79cf211984e0b030",
+      "rows": 218
+    },
+    {
+      "path": "data_all/哈尔的移动城堡.csv",
+      "sha": "78cfd9ccb6455075828bb2c588ce89326ea99ed2",
+      "rows": 216
+    },
+    {
+      "path": "data_all/哭声.csv",
+      "sha": "6c87f1924ab606504db782853d540f7539b58890",
+      "rows": 78
+    },
+    {
+      "path": "data_all/喋血双雄.csv",
+      "sha": "01741c8eb1de2110e379f548c2775b21c21f7f5d",
+      "rows": 159
+    },
+    {
+      "path": "data_all/回到未来.csv",
+      "sha": "a4fcb4f5aa118198c13b20f73ca8af35e833ba15",
+      "rows": 217
+    },
+    {
+      "path": "data_all/回到未来3.csv",
+      "sha": "16777043de60251bf116d76223db7c1558982c57",
+      "rows": 157
+    },
+    {
+      "path": "data_all/回转寿尸.csv",
+      "sha": "bb514c252086e96cadb73e0b3032697b3b94b1aa",
+      "rows": 136
+    },
+    {
+      "path": "data_all/回魂夜.csv",
+      "sha": "39750ee41cd7385c2be6c74adfb101251ba9f067",
+      "rows": 134
+    },
+    {
+      "path": "data_all/地下.csv",
+      "sha": "ff4a6d07ec68a046959260e50a5899c2117b0e38",
+      "rows": 193
+    },
+    {
+      "path": "data_all/地雷战.csv",
+      "sha": "762916588c2c83e70fe83bea420f1a1474f26d5d",
+      "rows": 202
+    },
+    {
+      "path": "data_all/坏孩子的天空.csv",
+      "sha": "e4fcbef67f2a8b2e3d3d57300a392cde90e7fbe3",
+      "rows": 158
+    },
+    {
+      "path": "data_all/坏小子巴比.csv",
+      "sha": "c2ad39a390def6772cf08af1eae0461a02d8065f",
+      "rows": 214
+    },
+    {
+      "path": "data_all/埃及王子.csv",
+      "sha": "40bb418d030ae4c6bee8863661ec38c0dcc0c2ce",
+      "rows": 200
+    },
+    {
+      "path": "data_all/城市之光.csv",
+      "sha": "bcbb48efa0f026d5318940aaddaaa23fd3b8e677",
+      "rows": 20
+    },
+    {
+      "path": "data_all/复仇者联盟.csv",
+      "sha": "8d29d47ec68fbc7703e53345c69292a0783a3460",
+      "rows": 76
+    },
+    {
+      "path": "data_all/复仇者联盟3：无限战争.csv",
+      "sha": "1eacdee6a59fd064bc9f59a773f2f8a26abe9dcf",
+      "rows": 19
+    },
+    {
+      "path": "data_all/大买卖.csv",
+      "sha": "203e45c9b4d5f932673c376ef764e74975af731d",
+      "rows": 215
+    },
+    {
+      "path": "data_all/大佛普拉斯.csv",
+      "sha": "c316cd88f1586b91d77e9b1ede125d7a7e4d2eda",
+      "rows": 59
+    },
+    {
+      "path": "data_all/大地惊雷.csv",
+      "sha": "5f689e72f58f177273d141ed0e5a2b77d7ff1f37",
+      "rows": 40
+    },
+    {
+      "path": "data_all/大独裁者.csv",
+      "sha": "95296533c76b2e6d3cc84035fe4589ed1eb6b819",
+      "rows": 215
+    },
+    {
+      "path": "data_all/大街上的商店.csv",
+      "sha": "ad6170cce6d3bec82ddfe125b419c2cdb8fdeb43",
+      "rows": 132
+    },
+    {
+      "path": "data_all/大话西游之大圣娶亲.csv",
+      "sha": "e0299148a47d727cc15b321c162cfd96c24db8b5",
+      "rows": 216
+    },
+    {
+      "path": "data_all/大话西游之月光宝盒.csv",
+      "sha": "21d7552344a28374f2ded9a54553f1d7dc1826f2",
+      "rows": 19
+    },
+    {
+      "path": "data_all/大象.csv",
+      "sha": "60de3e19b7f7b99a83a3adb50d8799532315d6f8",
+      "rows": 175
+    },
+    {
+      "path": "data_all/大都会.csv",
+      "sha": "e0939567379f34df5811821cf6814faa2b0f03c5",
+      "rows": 216
+    },
+    {
+      "path": "data_all/大闹天宫.csv",
+      "sha": "52d02066451c7abe582a473462d8b06cb84c082b",
+      "rows": 190
+    },
+    {
+      "path": "data_all/奔腾年代.csv",
+      "sha": "bc8eab1fda19f872c16e00494d8b5d83621c7d50",
+      "rows": 98
+    },
+    {
+      "path": "data_all/孤儿怨.csv",
+      "sha": "89b30bf441922eca8eb227911ff8c1d0c1d5e310",
+      "rows": 214
+    },
+    {
+      "path": "data_all/孤堡惊情.csv",
+      "sha": "2ef35bae1d866fbfd7b59d55729688426025090c",
+      "rows": 57
+    },
+    {
+      "path": "data_all/家有喜事.csv",
+      "sha": "639e3b3e1f75f451e094b4aaccade284d3413521",
+      "rows": 19
+    },
+    {
+      "path": "data_all/富贵狂花.csv",
+      "sha": "679001b200f882881df465cea2852d037f82ba06",
+      "rows": 126
+    },
+    {
+      "path": "data_all/巴贝特之宴.csv",
+      "sha": "3c6a2c4bc5b87e0491e63663cd1faa427870387f",
+      "rows": 59
+    },
+    {
+      "path": "data_all/巴黎假期.csv",
+      "sha": "185fd489471b308dee66547a66173c8045ae1614",
+      "rows": 168
+    },
+    {
+      "path": "data_all/巴黎淘气帮.csv",
+      "sha": "ce94b8473947e06c33fad00b7e79260203f8cce4",
+      "rows": 20
+    },
+    {
+      "path": "data_all/布拉格之恋.csv",
+      "sha": "e6573c2c0f812f6b2acb2bbb6afc06c68f8f8b7b",
+      "rows": 213
+    },
+    {
+      "path": "data_all/布达佩斯大饭店.csv",
+      "sha": "09317c260288e429e27eca5ec5bdf62a76c7e4db",
+      "rows": 97
+    },
+    {
+      "path": "data_all/开心家族.csv",
+      "sha": "b45499fa72f9c04d063f257128aa0ef39f2be366",
+      "rows": 55
+    },
+    {
+      "path": "data_all/归心似箭.csv",
+      "sha": "103286f962a63332b61df9dd0a76e62e32202f88",
+      "rows": 207
+    },
+    {
+      "path": "data_all/当哈利遇到莎莉.csv",
+      "sha": "d58bae68462305c2a50323a9e0ffd8c0f3c39dfe",
+      "rows": 135
+    },
+    {
+      "path": "data_all/当幸福来敲门.csv",
+      "sha": "868844183cd1a85f2d54114e7ff9d0c5c34abb33",
+      "rows": 196
+    },
+    {
+      "path": "data_all/怪兽屋.csv",
+      "sha": "e5962859009baf58dedb1af7b505cdd63e9adec8",
+      "rows": 20
+    },
+    {
+      "path": "data_all/怪兽电力公司.csv",
+      "sha": "c7eaaf999b111bb07090b9750d0f2e716d10811f",
+      "rows": 99
+    },
+    {
+      "path": "data_all/怪形.csv",
+      "sha": "39e85b04e0b5a56a7ef7e9667ba0946c2d4204e2",
+      "rows": 198
+    },
+    {
+      "path": "data_all/怪物史瑞克2.csv",
+      "sha": "66eb712e1e224c64bda61a73aeddd70dbeb34814",
+      "rows": 177
+    },
+    {
+      "path": "data_all/怪谈.csv",
+      "sha": "f5eed777df98fa17af24805723333583416c386c",
+      "rows": 216
+    },
+    {
+      "path": "data_all/恋恋风尘.csv",
+      "sha": "303008f5b9fdd0f3b9a5cc1b8936762bd3701037",
+      "rows": 93
+    },
+    {
+      "path": "data_all/恐怖游轮.csv",
+      "sha": "a8e1d19527c83b8548b37a4d205caa476d6c8330",
+      "rows": 137
+    },
+    {
+      "path": "data_all/恐怖直播.csv",
+      "sha": "e8d0e296e377da83c1b042f5a546742eab577896",
+      "rows": 40
+    },
+    {
+      "path": "data_all/恐怖鸡.csv",
+      "sha": "d9eaa06091f198769223c016c9025b70b542d2d6",
+      "rows": 78
+    },
+    {
+      "path": "data_all/恶魔的艺术2：邪降.csv",
+      "sha": "553979af2bde0eb8c520ef6e1571d11b9a725564",
+      "rows": 133
+    },
+    {
+      "path": "data_all/惊天12小时.csv",
+      "sha": "c4185d0d2ae13fdf300d5ab016dcefc06ffd1167",
+      "rows": 213
+    },
+    {
+      "path": "data_all/惊魂记.csv",
+      "sha": "240eb37dab08607959f689a9a00b2dc1c148788e",
+      "rows": 59
+    },
+    {
+      "path": "data_all/愤怒的公牛.csv",
+      "sha": "79ea198fc9bd530b669f5222b332819a4c009e38",
+      "rows": 20
+    },
+    {
+      "path": "data_all/成事在人.csv",
+      "sha": "96e9fc2d849dda0cd34dd4a3c0ba73e45007dcd0",
+      "rows": 40
+    },
+    {
+      "path": "data_all/房间.csv",
+      "sha": "1e1d98dec732c395dce5a6413e79388fefe4eb92",
+      "rows": 114
+    },
+    {
+      "path": "data_all/控方证人.csv",
+      "sha": "eea3e296b9c4b2d94332eb25150c196d6a775b2e",
+      "rows": 198
+    },
+    {
+      "path": "data_all/搏击俱乐部.csv",
+      "sha": "2ff756758404de3e3b844f1a84974c7173a1605d",
+      "rows": 78
+    },
+    {
+      "path": "data_all/攻壳机动队.csv",
+      "sha": "4a1ec45bc1cf9d437586559ba0f2b114af51fad4",
+      "rows": 216
+    },
+    {
+      "path": "data_all/攻壳机动队2：无罪.csv",
+      "sha": "bdb56151b23c4beeb62e4ab2c8425a7d89962653",
+      "rows": 212
+    },
+    {
+      "path": "data_all/放牛班的春天.csv",
+      "sha": "a91aaf67ed73f2cc3031043c489571f654f15d07",
+      "rows": 178
+    },
+    {
+      "path": "data_all/教父.csv",
+      "sha": "4a41c6fabaf0107a86e7a17c3c9b7a717794697d",
+      "rows": 216
+    },
+    {
+      "path": "data_all/教父2.csv",
+      "sha": "58baf3b85774b45ec9a776a37f5c6e2bd8644e2b",
+      "rows": 20
+    },
+    {
+      "path": "data_all/斗士.csv",
+      "sha": "1133705a3ea06bd4f250940824f5eab7f6351e32",
+      "rows": 58
+    },
+    {
+      "path": "data_all/春光乍泄.csv",
+      "sha": "b00e4d7fb342adbd42e6d9c25fe1638628c4451f",
+      "rows": 196
+    },
+    {
+      "path": "data_all/暗花.csv",
+      "sha": "d1ec626dcda56b711bcd94014c2dc19428a6c6e4",
+      "rows": 157
+    },
+    {
+      "path": "data_all/朗读者.csv",
+      "sha": "3e4b9b3a89021ec68b47fd5f7a6689cc29cb1253",
+      "rows": 58
+    },
+    {
+      "path": "data_all/本杰明·巴顿奇事.csv",
+      "sha": "913fd24585ee9c72214703c6d3f2c30846236361",
+      "rows": 214
+    },
+    {
+      "path": "data_all/机器人总动员.csv",
+      "sha": "5f746e1d5feffa381ae8cf52d158b1c20c9ae3e6",
+      "rows": 99
+    },
+    {
+      "path": "data_all/来自东方.csv",
+      "sha": "67733b984709b3a8e0e8675a8a38d753b6c07c9b",
+      "rows": 196
+    },
+    {
+      "path": "data_all/杯酒人生.csv",
+      "sha": "d428471568214f560d6ad39f637f12fde1a90ea3",
+      "rows": 194
+    },
+    {
+      "path": "data_all/极速车王.csv",
+      "sha": "115fdbc82fe121e855240cbcd6c08896a1fd4ff4",
+      "rows": 197
+    },
+    {
+      "path": "data_all/极速风流.csv",
+      "sha": "237178b6b269df6982ec145a47bc5b2c9c8ed528",
+      "rows": 217
+    },
+    {
+      "path": "data_all/柏林苍穹下.csv",
+      "sha": "1a07abe7e3463ae75e82fe302e835a0b571e9354",
+      "rows": 39
+    },
+    {
+      "path": "data_all/查理和巧克力工厂.csv",
+      "sha": "5ebed685e28b406edd8f4860bcf4ba70f20bbc77",
+      "rows": 137
+    },
+    {
+      "path": "data_all/梵高与提奥.csv",
+      "sha": "d5115a5c43e63d742cb8b988131212f75b8142de",
+      "rows": 203
+    },
+    {
+      "path": "data_all/楚门的世界.csv",
+      "sha": "1cd2b7e4838f24599532daa3bbfa88f9f7aaf50c",
+      "rows": 20
+    },
+    {
+      "path": "data_all/横空出世.csv",
+      "sha": "9472b9748d70abfeb39a887e7a9e347cc7b8a782",
+      "rows": 217
+    },
+    {
+      "path": "data_all/此房是我造.csv",
+      "sha": "333df220c5e3ec1d402b5f41cd3cd4b247591165",
+      "rows": 77
+    },
+    {
+      "path": "data_all/步履不停.csv",
+      "sha": "5c6ccf15b005e7dafe5f336d6d1d858e5a374870",
+      "rows": 139
+    },
+    {
+      "path": "data_all/沉静如海.csv",
+      "sha": "95cec5dab544bb857553850b1dffc5f2e8f66434",
+      "rows": 214
+    },
+    {
+      "path": "data_all/沉默的羔羊.csv",
+      "sha": "feac5d769676e5c56b46abd78c37a15e72688859",
+      "rows": 79
+    },
+    {
+      "path": "data_all/活死人黎明.csv",
+      "sha": "711a4f063a637e757c9c76748647c0e02a83c659",
+      "rows": 55
+    },
+    {
+      "path": "data_all/活着.csv",
+      "sha": "ef1c37b277fbde97055fe81ea9616055f78fb944",
+      "rows": 215
+    },
+    {
+      "path": "data_all/浪客剑心.csv",
+      "sha": "434a9fdd042aadec27217e0abf51adba507f1167",
+      "rows": 214
+    },
+    {
+      "path": "data_all/海上钢琴师.csv",
+      "sha": "81816f0c194e1a4daa86e937aa2f37e9a20db2ab",
+      "rows": 215
+    },
+    {
+      "path": "data_all/海盗电台.csv",
+      "sha": "07cc348a2aa23aa2f9f90f18673986086344206d",
+      "rows": 20
+    },
+    {
+      "path": "data_all/海蒂和爷爷.csv",
+      "sha": "384f8c93b040f723f7a68640ee60cbeedd57f37f",
+      "rows": 20
+    },
+    {
+      "path": "data_all/海豚湾.csv",
+      "sha": "3e640f8c8560150030613c28e25969fabdf653a2",
+      "rows": 216
+    },
+    {
+      "path": "data_all/激战.csv",
+      "sha": "f3af59796be7e475f716330b05175ea3bc38150c",
+      "rows": 59
+    },
+    {
+      "path": "data_all/灌篮高手.csv",
+      "sha": "706535698251636bdc55af163f946cd8763c95e4",
+      "rows": 218
+    },
+    {
+      "path": "data_all/火星救援.csv",
+      "sha": "ae8e0fc49e41fcc49b0e8ca2bfcd0eb9bceb4436",
+      "rows": 118
+    },
+    {
+      "path": "data_all/火药桶.csv",
+      "sha": "0424bf8752c2449cc452a04fab3fa35bc8ed29cb",
+      "rows": 203
+    },
+    {
+      "path": "data_all/灰天鹅绒上的四只苍蝇.csv",
+      "sha": "6a7b9d44fb1831ee2e140edf333797cea5d6ba01",
+      "rows": 137
+    },
+    {
+      "path": "data_all/灰眼珠的男孩.csv",
+      "sha": "ed25261724cd155309a6329a07052652eef0f2ec",
+      "rows": 205
+    },
+    {
+      "path": "data_all/灿烂人生.csv",
+      "sha": "06821bef90aaf70e328def6adccb34d4be41104e",
+      "rows": 212
+    },
+    {
+      "path": "data_all/点球成金.csv",
+      "sha": "089d23bfdd0ad7698242e1d260cc8cce0a1340d4",
+      "rows": 115
+    },
+    {
+      "path": "data_all/爱乐之城.csv",
+      "sha": "ff23c8172d7779ef283397343ef5481f4e735a4f",
+      "rows": 99
+    },
+    {
+      "path": "data_all/爱在午夜降临前.csv",
+      "sha": "c035d0dca54ce48f2aa3771c7a91f1965acb6035",
+      "rows": 20
+    },
+    {
+      "path": "data_all/爱在日落黄昏时.csv",
+      "sha": "7eed5e562a762f8e7660e60cdfb505c1fb8bc9cf",
+      "rows": 216
+    },
+    {
+      "path": "data_all/爱的困惑.csv",
+      "sha": "0f86be9fd27f225e72fe0893da9cf73c495fc6c5",
+      "rows": 140
+    },
+    {
+      "path": "data_all/牯岭街少年杀人事件.csv",
+      "sha": "4a060e6161032e6fe89eed0d57352ee9e57fd706",
+      "rows": 156
+    },
+    {
+      "path": "data_all/狗男女.csv",
+      "sha": "1e2fdd2352f1029d2dde7b76afb5eb971d6899b0",
+      "rows": 185
+    },
+    {
+      "path": "data_all/狗脸的岁月.csv",
+      "sha": "197eb716eae61cacbcd6ed5f8aa76db1a7be69b8",
+      "rows": 218
+    },
+    {
+      "path": "data_all/狗镇.csv",
+      "sha": "5afe4aeec8c611a6e1103300033ed8afc6601152",
+      "rows": 139
+    },
+    {
+      "path": "data_all/猜火车.csv",
+      "sha": "8f216a28e24dbe1745c3c7fed530b3b0f6697eab",
+      "rows": 154
+    },
+    {
+      "path": "data_all/理发师陶德.csv",
+      "sha": "0b1c879d9a113c612e742dc02b04a0def5ba6de4",
+      "rows": 19
+    },
+    {
+      "path": "data_all/电影.csv",
+      "sha": "cc7ea99a23493344996e95b7dee4020c740bdca3",
+      "rows": 187
+    },
+    {
+      "path": "data_all/电影梦.csv",
+      "sha": "d773d3fe34b5c79a246c616ef24100efe6f93234",
+      "rows": 170
+    },
+    {
+      "path": "data_all/电锯惊魂.csv",
+      "sha": "bc1a51eff386b3b25afdc9d14330664104339043",
+      "rows": 115
+    },
+    {
+      "path": "data_all/电锯惊魂10.csv",
+      "sha": "2e0b4e3a11e44a92f6372c684ae6147dee97e66f",
+      "rows": 60
+    },
+    {
+      "path": "data_all/电锯惊魂2.csv",
+      "sha": "e1c313eb815682201a0549687b44fad4ab2b415c",
+      "rows": 76
+    },
+    {
+      "path": "data_all/电锯惊魂3.csv",
+      "sha": "ce57ebae07e9e2f66485c04c7a26c246aa170729",
+      "rows": 214
+    },
+    {
+      "path": "data_all/电锯惊魂4.csv",
+      "sha": "c786de0384f621b6f204862ec61f17553fc5077e",
+      "rows": 20
+    },
+    {
+      "path": "data_all/电锯惊魂5.csv",
+      "sha": "1a516f1e605701d6b81abc6802b4e70986305bd6",
+      "rows": 114
+    },
+    {
+      "path": "data_all/电锯惊魂6.csv",
+      "sha": "0b033b0d5e8030f8339d78c0f0c9f8cbdb1c688e",
+      "rows": 175
+    },
+    {
+      "path": "data_all/疯狂动物城.csv",
+      "sha": "4dc251e7f1837f653ce37a6c857573b7ff4991f9",
+      "rows": 139
+    },
+    {
+      "path": "data_all/疯狂原始人.csv",
+      "sha": "63b75253e6a214fee4d82906376f4884cfdd8381",
+      "rows": 20
+    },
+    {
+      "path": "data_all/疯狂的石头.csv",
+      "sha": "b6656c204931547ca0b1b4a5f873b48cea8608f8",
+      "rows": 214
+    },
+    {
+      "path": "data_all/疯狂的麦克斯4：狂暴之路.csv",
+      "sha": "5ca6c5d3067e57c2ab4e051e25646b407fcc41c9",
+      "rows": 78
+    },
+    {
+      "path": "data_all/疯狂约会美丽都.csv",
+      "sha": "c1e6334e50adb737d902eee05e167354ed5e45c4",
+      "rows": 215
+    },
+    {
+      "path": "data_all/白头神探.csv",
+      "sha": "02f8880274f6b537f71d0510e67f3c9f1bf4000e",
+      "rows": 135
+    },
+    {
+      "path": "data_all/白日梦想家.csv",
+      "sha": "8083d25ae269c8528f131a22b4608545e4c3489d",
+      "rows": 40
+    },
+    {
+      "path": "data_all/白蛇传.csv",
+      "sha": "fb4c71f2e159a9f5a238c7f861e162279ebb56b9",
+      "rows": 196
+    },
+    {
+      "path": "data_all/白雪公主和七个小矮人.csv",
+      "sha": "a3ab91b8260ad9ca856d2128466f006e3bd0a64a",
+      "rows": 78
+    },
+    {
+      "path": "data_all/百万美元宝贝.csv",
+      "sha": "04c753fe8fc36e9300640aeda24ae2aa708655af",
+      "rows": 215
+    },
+    {
+      "path": "data_all/百元之恋.csv",
+      "sha": "e97bb3f495cd8a41997b932e8d3c6cd3ddea3e62",
+      "rows": 20
+    },
+    {
+      "path": "data_all/盗梦空间.csv",
+      "sha": "f91bf6503d8c887bc1bb0db82f51242f8e10c279",
+      "rows": 211
+    },
+    {
+      "path": "data_all/盗火线.csv",
+      "sha": "3179733cf249b51ecc8418534732aae61e1051ff",
+      "rows": 60
+    },
+    {
+      "path": "data_all/看谁在尖叫.csv",
+      "sha": "0d19ea3c8fd76ac20bccd8bca93de9238def1662",
+      "rows": 135
+    },
+    {
+      "path": "data_all/碟中谍.csv",
+      "sha": "5c07f7a022ceaecfe180853c808514038d0753bb",
+      "rows": 59
+    },
+    {
+      "path": "data_all/碧海蓝天.csv",
+      "sha": "4d6c51c4d10ca4c536edff0a44776455163550b2",
+      "rows": 40
+    },
+    {
+      "path": "data_all/禁忌.csv",
+      "sha": "15b42209eb1f9c854590feaf680b2090ff2b5568",
+      "rows": 209
+    },
+    {
+      "path": "data_all/禁欲40天.csv",
+      "sha": "07dc47a82b0a89f0e9c5cc00f626acfe0bf28c47",
+      "rows": 126
+    },
+    {
+      "path": "data_all/禁闭岛.csv",
+      "sha": "e586c068cca5639ae229c92a9b02b4a0aae53880",
+      "rows": 20
+    },
+    {
+      "path": "data_all/福尔摩斯二世.csv",
+      "sha": "2b84fe8b2d3b5a22a7fb4664e431003004eb939b",
+      "rows": 217
+    },
+    {
+      "path": "data_all/福星闯江湖.csv",
+      "sha": "44643bd2aed624f7fac973796b65acaa58ac2ff7",
+      "rows": 207
+    },
+    {
+      "path": "data_all/离开雷锋的日子.csv",
+      "sha": "afbb7ce0f3b3df42ce3947a4cc274869bce5b612",
+      "rows": 198
+    },
+    {
+      "path": "data_all/穿越时空的少女.csv",
+      "sha": "19498a50c56a4488737bd47b00a3a48252e2494c",
+      "rows": 217
+    },
+    {
+      "path": "data_all/穿靴子的猫2.csv",
+      "sha": "88b814a583d086521066a93897f16d8e89af4393",
+      "rows": 58
+    },
+    {
+      "path": "data_all/第一次.csv",
+      "sha": "55d8f48258b9864418e14fb9fbdf97a8b23e9ec9",
+      "rows": 127
+    },
+    {
+      "path": "data_all/第一滴血.csv",
+      "sha": "193732d5bd00e08426807e56e7100a152b5d07d6",
+      "rows": 20
+    },
+    {
+      "path": "data_all/第七封印.csv",
+      "sha": "2142b9c4e258797b98a314aa96391cf1a220ea00",
+      "rows": 39
+    },
+    {
+      "path": "data_all/第九区.csv",
+      "sha": "8436058840c6a4988e50ff54a8bd5008381ece3b",
+      "rows": 19
+    },
+    {
+      "path": "data_all/等候董建华发落.csv",
+      "sha": "d070cd409de6c2896a46f93b31671323d8219e7d",
+      "rows": 212
+    },
+    {
+      "path": "data_all/精武英雄.csv",
+      "sha": "907df6d2833bc2036f8cf586618810b9b9eb0e63",
+      "rows": 178
+    },
+    {
+      "path": "data_all/精英部队2：大敌当前.csv",
+      "sha": "74ca905ee531ed696471722ee78ea475da91b7a2",
+      "rows": 20
+    },
+    {
+      "path": "data_all/红猪.csv",
+      "sha": "5203f196d9ab6181eabf790f1681ea6bea474617",
+      "rows": 217
+    },
+    {
+      "path": "data_all/红色警探.csv",
+      "sha": "2c7c6c5aef3e93c68573e04deeb095b4ae2585c8",
+      "rows": 213
+    },
+    {
+      "path": "data_all/红辣椒.csv",
+      "sha": "52cd7e3dc50eacd471ea2ef1590db3f00a0ffdd2",
+      "rows": 39
+    },
+    {
+      "path": "data_all/绝杀慕尼黑.csv",
+      "sha": "41e9bc67756ec8baf9b3c8530f2b48968134c944",
+      "rows": 60
+    },
+    {
+      "path": "data_all/老人与海.csv",
+      "sha": "d3fc47dca3957a2e4e7e9b9ad9df4767e0f9a5ac",
+      "rows": 149
+    },
+    {
+      "path": "data_all/老友记重聚特辑.csv",
+      "sha": "fcc05ae16deb031966c89ee5c4af327646e19ec6",
+      "rows": 206
+    },
+    {
+      "path": "data_all/老无所依.csv",
+      "sha": "b1381b33edf2c140bba3d4d6e9c6a1b7a61d0c4e",
+      "rows": 19
+    },
+    {
+      "path": "data_all/花束般的恋爱.csv",
+      "sha": "a6841628a15078469b910524fbe00a6f334dbc24",
+      "rows": 59
+    },
+    {
+      "path": "data_all/花样年华.csv",
+      "sha": "494a8d2a0aa7d76ef93f17ffddf63b0d4fa5c6bf",
+      "rows": 214
+    },
+    {
+      "path": "data_all/芳心他属.csv",
+      "sha": "0f94fbca557ed6934aec426320de3d1242413ffb",
+      "rows": 173
+    },
+    {
+      "path": "data_all/苦月亮.csv",
+      "sha": "9413102428daf64534bc4dc0f7b80f1b780a7937",
+      "rows": 20
+    },
+    {
+      "path": "data_all/草房子.csv",
+      "sha": "57c30194bf01a880237b1c70d73408b8ee5bdfe0",
+      "rows": 178
+    },
+    {
+      "path": "data_all/荒蛮故事.csv",
+      "sha": "b7bba613cc40d26bebf19a5d421a64ccfb300e71",
+      "rows": 20
+    },
+    {
+      "path": "data_all/菊次郎的夏天.csv",
+      "sha": "11b56c683ebf116cedcd1530d5da99e6352d7936",
+      "rows": 215
+    },
+    {
+      "path": "data_all/蒋筑英.csv",
+      "sha": "7a2c7a685d7cdded0a0f4255fcecf760ecf3d457",
+      "rows": 121
+    },
+    {
+      "path": "data_all/蓝白红三部曲之红.csv",
+      "sha": "0be03b9119779431f423487a5f0ddaf0f70cd1c1",
+      "rows": 59
+    },
+    {
+      "path": "data_all/蓝白红三部曲之蓝.csv",
+      "sha": "1ae349e768f705cdc95e06311e08ef28935d80aa",
+      "rows": 176
+    },
+    {
+      "path": "data_all/虎兄虎弟.csv",
+      "sha": "930448942a1905bf789fbb5550ecaac9c971c3eb",
+      "rows": 60
+    },
+    {
+      "path": "data_all/虎口脱险.csv",
+      "sha": "df68a888ba4502fa17f4a56de3362ea47d6826ff",
+      "rows": 214
+    },
+    {
+      "path": "data_all/虫虫危机.csv",
+      "sha": "87380be5d218ce7d5621e4fb16ffcdc10acf87e6",
+      "rows": 135
+    },
+    {
+      "path": "data_all/蝙蝠侠：黑暗骑士.csv",
+      "sha": "3c4f8c8213e0e3eea24c7eb290ae2471eeca60d9",
+      "rows": 217
+    },
+    {
+      "path": "data_all/蝴蝶效应.csv",
+      "sha": "a0728c8edaade322d33ecd43140c36c2f3f100ed",
+      "rows": 59
+    },
+    {
+      "path": "data_all/解构生活.csv",
+      "sha": "8325ec336bd9c1712dc70afa16147adf6a227789",
+      "rows": 137
+    },
+    {
+      "path": "data_all/解除好友2：暗网.csv",
+      "sha": "8adcd8268747dca186f163b4b490466b775c91f3",
+      "rows": 210
+    },
+    {
+      "path": "data_all/触不可及.csv",
+      "sha": "179d0b67d1e308d7d3f68c4f2d3a4c1c0c8beb3c",
+      "rows": 211
+    },
+    {
+      "path": "data_all/记忆碎片.csv",
+      "sha": "37f96791fa1325bb292e365830c8dc0089348a28",
+      "rows": 40
+    },
+    {
+      "path": "data_all/豪情四海.csv",
+      "sha": "34ceaa58f471c158c809339140b3ce356ad00759",
+      "rows": 152
+    },
+    {
+      "path": "data_all/超人总动员.csv",
+      "sha": "7669f2ceaa761b6908f5b1cff4ddc8036a727a22",
+      "rows": 220
+    },
+    {
+      "path": "data_all/超感猎杀：完结特别篇.csv",
+      "sha": "c9cd5a8b023628eab13da1895dcc8d8dc5e1933a",
+      "rows": 216
+    },
+    {
+      "path": "data_all/超时空接触.csv",
+      "sha": "9e22e3997dccf91c96608084755709aa61897fae",
+      "rows": 37
+    },
+    {
+      "path": "data_all/超能陆战队.csv",
+      "sha": "c8ae1af3673861c4efea5f0fa4f97d436fdad814",
+      "rows": 133
+    },
+    {
+      "path": "data_all/超脱.csv",
+      "sha": "52777e7dbf674b157a48f8fe73e61c3b5e37a534",
+      "rows": 38
+    },
+    {
+      "path": "data_all/辉夜姬物语.csv",
+      "sha": "216324a776253da551540ade0e597eba3e766c71",
+      "rows": 38
+    },
+    {
+      "path": "data_all/边城三侠.csv",
+      "sha": "5cc7e379cdb903b4b755518363cc2e04e77d051d",
+      "rows": 188
+    },
+    {
+      "path": "data_all/边缘日记.csv",
+      "sha": "7bf46c7c0bb419970a2b6c804f6189b9657aa9ec",
+      "rows": 39
+    },
+    {
+      "path": "data_all/达拉斯买家俱乐部.csv",
+      "sha": "b0642a8e42433a5e5f4fd5c43fcfe1a2cffa8076",
+      "rows": 120
+    },
+    {
+      "path": "data_all/金矿.csv",
+      "sha": "17ffb5f93ab6526cf953abf1219405259116741e",
+      "rows": 20
+    },
+    {
+      "path": "data_all/金福南杀人事件始末.csv",
+      "sha": "933f5aeb9e1d784434f8ed0df35a61a7590646ad",
+      "rows": 40
+    },
+    {
+      "path": "data_all/金臂人.csv",
+      "sha": "af881a60b31501c3352d6fcffe2ee2a2ab445710",
+      "rows": 168
+    },
+    {
+      "path": "data_all/釜山行.csv",
+      "sha": "eac59b07792dbddd26dc37743af819c54b1fb640",
+      "rows": 58
+    },
+    {
+      "path": "data_all/钢琴家.csv",
+      "sha": "d56afa2975bebc23022e7f332b8a6650ff30f039",
+      "rows": 20
+    },
+    {
+      "path": "data_all/钢铁巨人.csv",
+      "sha": "0eafb1f7637d28788bdeb588522653696dd56ca7",
+      "rows": 20
+    },
+    {
+      "path": "data_all/阿丽塔：战斗天使.csv",
+      "sha": "ca52444d011e4887a83d370dd219b3727c08e5ef",
+      "rows": 225
+    },
+    {
+      "path": "data_all/阿凡达.csv",
+      "sha": "99e916bab67ee238500a94dbd1dad69cf9d043df",
+      "rows": 98
+    },
+    {
+      "path": "data_all/阿呆与阿瓜.csv",
+      "sha": "82337a71496ee0255ed185d90e2482c1c52fd640",
+      "rows": 212
+    },
+    {
+      "path": "data_all/阿甘正传.csv",
+      "sha": "a7d41a54718b6efc864db21c9861e6789a67755b",
+      "rows": 218
+    },
+    {
+      "path": "data_all/阿赫迈德王子历险记.csv",
+      "sha": "137a8d5d20e0da39fe2f7b0e5dfcb833e9b15a17",
+      "rows": 207
+    },
+    {
+      "path": "data_all/阿飞正传.csv",
+      "sha": "7caedf51609a36570a2db15ee98768ce53d3ba9a",
+      "rows": 100
+    },
+    {
+      "path": "data_all/隔墙花.csv",
+      "sha": "42fc837fadeb54df85d02c94710f0bad8353e130",
+      "rows": 172
+    },
+    {
+      "path": "data_all/雷恩的女儿.csv",
+      "sha": "16a8ef5222cf705893469a9b471fb0a87aaeaf66",
+      "rows": 211
+    },
+    {
+      "path": "data_all/霸王别姬.csv",
+      "sha": "0a5e53674341fbc211b89ff04494ecde90de18c9",
+      "rows": 217
+    },
+    {
+      "path": "data_all/非常嫌疑犯.csv",
+      "sha": "44383bead15feae66c76b9bca1a9c17ca3d3c265",
+      "rows": 159
+    },
+    {
+      "path": "data_all/革命往事.csv",
+      "sha": "7cf1e88fa58ec552328bfac28a82d45ef8b7e6c7",
+      "rows": 18
+    },
+    {
+      "path": "data_all/风之谷.csv",
+      "sha": "c702a8797913eeb211ab3752cef6b274e36b76ca",
+      "rows": 19
+    },
+    {
+      "path": "data_all/风声.csv",
+      "sha": "5abc1dc2e6d62bbdd6f12fa8c77e08007c0d3aa4",
+      "rows": 38
+    },
+    {
+      "path": "data_all/飓风.csv",
+      "sha": "aac87a8ebcaabc876ba0aa9ec7b1fb8915717ed2",
+      "rows": 40
+    },
+    {
+      "path": "data_all/飞天小女警.csv",
+      "sha": "871f43ed37aa0968ef128342baa54ed10eaadee5",
+      "rows": 208
+    },
+    {
+      "path": "data_all/飞屋环游记.csv",
+      "sha": "af50680714b146658729b8a4dd4d24b7fb9c7a9f",
+      "rows": 39
+    },
+    {
+      "path": "data_all/飞毛腿冈萨雷斯.csv",
+      "sha": "d6499660ab3cc2db45cdd4bcbbfb6b78b06efece",
+      "rows": 187
+    },
+    {
+      "path": "data_all/飞行员的妻子.csv",
+      "sha": "422332883406b5ef835a4c46c4d344c02d4311f8",
+      "rows": 138
+    },
+    {
+      "path": "data_all/飞越疯人院.csv",
+      "sha": "5e504b88b74620a24fc08423db9c7cb0948aab92",
+      "rows": 155
+    },
+    {
+      "path": "data_all/飞车党.csv",
+      "sha": "749a37874618cfdad15e5d79aaa5e6fd24880433",
+      "rows": 133
+    },
+    {
+      "path": "data_all/飞鹰艾迪.csv",
+      "sha": "3c059e72d95e30d572e18052903cc21a6eaae352",
+      "rows": 78
+    },
+    {
+      "path": "data_all/高山下的花环.csv",
+      "sha": "e99ba0125d308d1ab983955f6c9b54194c2e97ff",
+      "rows": 40
+    },
+    {
+      "path": "data_all/鬼入侵.csv",
+      "sha": "5543c338acabc20f881b343dd27c6b49fcfd6a2b",
+      "rows": 185
+    },
+    {
+      "path": "data_all/鬼妈妈.csv",
+      "sha": "4105fcff12d36806f9052515c6d7eaa18dd8fe8f",
+      "rows": 98
+    },
+    {
+      "path": "data_all/鬼子来了.csv",
+      "sha": "3b4a8bee38dbc7f9a6eedeea60b94127c7bfb59c",
+      "rows": 40
+    },
+    {
+      "path": "data_all/鬼巴士.csv",
+      "sha": "4191355b60b76e88a106ac8514f7887e2c113b2d",
+      "rows": 169
+    },
+    {
+      "path": "data_all/鬼马智多星.csv",
+      "sha": "6781453d5d7eaad335d5512862fbe9e6dfd82b59",
+      "rows": 208
+    },
+    {
+      "path": "data_all/魁拔之十万火急.csv",
+      "sha": "382e3ce526b5517acdd45ff099f5043884ee70f5",
+      "rows": 20
+    },
+    {
+      "path": "data_all/魂断蓝桥.csv",
+      "sha": "0d938d2d6144043ee3098beb8e530169ad8897e0",
+      "rows": 80
+    },
+    {
+      "path": "data_all/黄土地.csv",
+      "sha": "26cd32ece8c7d73c34d477602187f33ac0179096",
+      "rows": 209
+    },
+    {
+      "path": "data_all/黄金三镖客.csv",
+      "sha": "ebdc8021640b02f0cbd8140e7527ac453675cc6c",
+      "rows": 215
+    },
+    {
+      "path": "data_all/黄金岛历险记.csv",
+      "sha": "9132ebf0a607f1982c1292872cdc29f6afd09291",
+      "rows": 220
+    },
+    {
+      "path": "data_all/黑天鹅.csv",
+      "sha": "b617a7e206734566f6a566b734d3b580a413f44a",
+      "rows": 59
+    },
+    {
+      "path": "data_all/黑客帝国.csv",
+      "sha": "0d43e5be55cae8ba2a9392a36976fcb456bfb413",
+      "rows": 97
+    },
+    {
+      "path": "data_all/黑客帝国2：重装上阵.csv",
+      "sha": "982dda6604e7fb6f672ee897c69cb454c7cfa655",
+      "rows": 20
+    },
+    {
+      "path": "data_all/黑客帝国3：矩阵革命.csv",
+      "sha": "3b11526e6d5199cf6d95b85b9e64ad77a6a5aa01",
+      "rows": 58
+    },
+    {
+      "path": "data_all/黑客帝国动画版.csv",
+      "sha": "22ceb5d857f2735480ca9da5eae011fa6af1d8a4",
+      "rows": 197
+    },
+    {
+      "path": "data_all/黑帮暴徒.csv",
+      "sha": "37591b62406d9db018e251b9939e596fd4233c7c",
+      "rows": 136
+    },
+    {
+      "path": "data_all/黑暗中的舞者.csv",
+      "sha": "842715c80ab26fe2f4949854f70be0333e369b55",
+      "rows": 209
+    },
+    {
+      "path": "data_all/黑炮事件.csv",
+      "sha": "58676acfec2727dfc16449fc0b44df60ac9b91d5",
+      "rows": 19
+    },
+    {
+      "path": "data_all/黑社会.csv",
+      "sha": "d8455da0a2076c530c74b49c3f3b3c44355b3665",
+      "rows": 38
+    },
+    {
+      "path": "data_all/黑社会2：以和为贵.csv",
+      "sha": "5f63f1da5f17217def93e428774f37ae2f657e9d",
+      "rows": 76
+    },
+    {
+      "path": "data_all/黑镜：圣诞特别篇.csv",
+      "sha": "78c3782c46919ef4361d9e65d1b66a5ea802f707",
+      "rows": 20
+    },
+    {
+      "path": "data_all/黑鹰坠落.csv",
+      "sha": "27f06572d383a9f8e42d81877e4727a84a9e201c",
+      "rows": 213
+    }
+  ],
+  "failures": [],
+  "original_columns_used": [
+    "text",
+    "star",
+    "date"
+  ],
+  "excluded_columns": [
+    "username",
+    "precomputed_sentiment",
+    "votes",
+    "star_description"
+  ]
+}
